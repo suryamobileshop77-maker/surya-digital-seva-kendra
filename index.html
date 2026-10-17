@@ -6,88 +6,72 @@
 <title>Surya Digital Seva Kendra</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f2f6fc;color:#17324f}
-header{background:linear-gradient(135deg,#06264b,#087ac0);color:white;text-align:center;padding:35px 15px}
-.logo{width:82px;height:82px;border:4px solid #f5a623;border-radius:50%;background:white;color:#0755a0;margin:0 auto 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:bold}
-.logo b{font-size:25px}.logo small{font-size:9px}
-h1{font-size:clamp(25px,5vw,40px);margin:8px 0}
-header p{color:#e2efff;line-height:1.6}
-.tag{display:inline-block;border:1px solid #ffffff80;border-radius:20px;padding:8px 14px;margin:5px;font-size:12px}
-main{max-width:1050px;margin:auto;padding:22px 15px}
-.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.info,.service{background:white;border:1px solid #dce6f0;border-radius:13px;padding:17px;text-align:center}
-.info small{display:block;color:#64778b}
-.info strong{display:block;margin-top:8px;color:#0755a0;overflow-wrap:anywhere}
-h2{text-align:center;color:#0b3d70;margin:32px 0 7px}
-.intro{text-align:center;color:#687b8f;margin:0 0 22px}
-.services{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
-.service{padding:20px 9px;box-shadow:0 4px 12px #17324f0c}
-.icon{font-size:30px;margin-bottom:10px}
-.service h3{font-size:14px;margin:0;color:#123d69}
-.service p{font-size:12px;color:#687b8f;line-height:1.5}
-.banner{margin-top:25px;padding:22px;text-align:center;border-radius:13px;background:#e2f5e9;border:1px solid #c4e7d0}
-.banner h3{margin:0;color:#176a3b}
-.banner p{line-height:1.6}
-.button{display:inline-block;background:#ff9d22;color:#172d46;padding:12px 20px;border-radius:7px;text-decoration:none;font-weight:bold;margin-top:10px}
-footer{background:#06264b;color:white;text-align:center;padding:25px 12px;margin-top:25px}
-footer p{margin:8px 0;color:#e0ebf8;font-size:13px}
-@media(max-width:700px){.services{grid-template-columns:repeat(2,minmax(0,1fr))}.contact{grid-template-columns:1fr}}
-@media(max-width:360px){.services{grid-template-columns:1fr}}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f7fc;color:#17324f}
+header{background:linear-gradient(135deg,#062951,#087bc1);color:white;text-align:center;padding:30px 15px}
+.logo{width:75px;height:75px;margin:auto auto 12px;border:3px solid #ffbd36;border-radius:18px;background:white;color:#0759a8;display:grid;place-items:center;font-size:24px;font-weight:bold}
+h1{font-size:clamp(25px,5vw,38px)}
+nav{background:white;padding:15px;text-align:center}
+nav a{color:#0759a8;text-decoration:none;font-weight:bold;margin:8px}
+.hero{max-width:1050px;margin:22px auto;padding:15px;display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.panel{background:white;border:1px solid #dce7f1;border-radius:16px;padding:22px}
+.blue{background:#07356b;color:white}
+.btn{display:inline-block;background:#0759a8;color:white;text-decoration:none;padding:12px;border-radius:8px;margin:5px 3px}
+.whatsapp{background:#16884a}
+section{max-width:1050px;margin:auto;padding:20px 15px}
+.heading{text-align:center;color:#07356b}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{background:white;border:1px solid #dce7f1;border-radius:13px;padding:17px}
+.icon{font-size:30px}
+.card h3{font-size:16px;color:#0759a8}
+.card p{font-size:13px;color:#65778a}
+.contact{background:#07356b;color:white;text-align:center;padding:25px;border-radius:15px}
+footer{background:#062951;color:white;text-align:center;padding:22px;font-size:13px}
+@media(max-width:650px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:380px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header>
-  <div class="logo"><b>CSC</b><small>DIGITAL SEVA</small></div>
-  <h1>SURYA DIGITAL SEVA KENDRA</h1>
-  <p>Your Trusted Digital Service Centre<br>Easy Access to Essential Online Services</p>
-  <span class="tag">CSC Digital Services</span>
-  <span class="tag">Customer Support</span>
-  <span class="tag">Online Applications</span>
+<div class="logo">SD</div>
+<h1>SURYA DIGITAL SEVA KENDRA</h1>
+<p>Your Trusted Digital Service Centre</p>
+<p>CSC ID: 232563770016</p>
 </header>
-
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
 <main>
-  <section class="contact">
-    <div class="info"><small>📞 CONTACT NUMBER</small><strong>7908420583</strong></div>
-    <div class="info"><small>🪪 CSC ID</small><strong>232563770016</strong></div>
-    <div class="info"><small>👨‍💼 CENTRE OPERATOR</small><strong>Trinath Sutradhar</strong></div>
-  </section>
-
-  <h2>Our Digital Services</h2>
-  <p class="intro">A wide range of digital and citizen services at one place.</p>
-
-  <section class="services">
-    <div class="service"><div class="icon">🪪</div><h3>PAN Card Services</h3><p>Application and related assistance</p></div>
-    <div class="service"><div class="icon">🛂</div><h3>Passport Services</h3><p>Online application assistance</p></div>
-    <div class="service"><div class="icon">🩺</div><h3>Ayushman Bharat</h3><p>Eligible card and e-KYC assistance</p></div>
-    <div class="service"><div class="icon">🌾</div><h3>PM-KISAN</h3><p>Farmer scheme assistance</p></div>
-    <div class="service"><div class="icon">🌱</div><h3>PMFBY Insurance</h3><p>Crop insurance services</p></div>
-    <div class="service"><div class="icon">👷</div><h3>e-Shram</h3><p>Worker registration assistance</p></div>
-    <div class="service"><div class="icon">💳</div><h3>DigiPay & AEPS</h3><p>Supported digital banking services</p></div>
-    <div class="service"><div class="icon">💡</div><h3>BBPS Bill Payment</h3><p>Supported utility bill payments</p></div>
-    <div class="service"><div class="icon">🚆</div><h3>Rail Ticket Booking</h3><p>Ticket booking assistance</p></div>
-    <div class="service"><div class="icon">✈️</div><h3>Flight Ticket Booking</h3><p>Travel booking assistance</p></div>
-    <div class="service"><div class="icon">🛡️</div><h3>Insurance Services</h3><p>Available insurance assistance</p></div>
-    <div class="service"><div class="icon">👴</div><h3>Atal Pension Yojana</h3><p>Eligible pension scheme assistance</p></div>
-    <div class="service"><div class="icon">📄</div><h3>Online Applications</h3><p>Forms and document assistance</p></div>
-    <div class="service"><div class="icon">🏦</div><h3>Banking Services</h3><p>Available banking and transaction services</p></div>
-    <div class="service"><div class="icon">🖨️</div><h3>Print & Document Help</h3><p>Printing and digital document assistance</p></div>
-    <div class="service"><div class="icon">🤝</div><h3>Government Schemes</h3><p>Guidance for eligible citizens</p></div>
-  </section>
-
-  <section class="banner">
-    <h3>Need Help with an Online Service?</h3>
-    <p>Contact Surya Digital Seva Kendra for information about available services and required documents.</p>
-    <a class="button" href="tel:7908420583">Call Our Centre</a>
-  </section>
+<div class="hero" id="home">
+<div class="panel">
+<h2>Digital Services Made Easy</h2>
+<p>Your local centre for digital, banking and online services.</p>
+<a class="btn" href="tel:+917908420583">Call Now</a>
+<a class="btn whatsapp" href="https://wa.me/917908420583" target="_blank" rel="noopener">WhatsApp Us</a>
+</div>
+<div class="panel blue">
+<h2 style="color:white">Centre Information</h2>
+<p>Centre: Surya Digital Seva Kendra</p>
+<p>Operator: Trinath Sutradhar</p>
+<p>CSC ID: 232563770016</p>
+<p>Phone: 7908420583</p>
+</div>
+</div>
+<section id="services">
+<div class="heading">
+<h2>Our Services</h2>
+<p>Contact us to check service availability.</p>
+</div>
+<div class="grid">
+<div class="card"><div class="icon">🪪</div><h3>PAN Card Services</h3><p>Application and correction assistance.</p></div>
+<div class="card"><div class="icon">🛂</div><h3>Passport Services</h3><p>Online passport application assistance.</p></div>
+<div class="card"><div class="icon">💸</div><h3>Money Transfer</h3><p>Available domestic money transfer services.</p></div>
+<div class="card"><div class="icon">💰</div><h3>Loan Services</h3><p>Loan information and application assistance. Approval depends on the lender.</p></div>
+<div class="card"><div class="icon">🏦</div><h3>Banking Services</h3><p>Available banking services.</p></div>
+<div class="card"><div class="icon">💳</div><h3>DigiPay & AEPS</h3><p>Supported digital payment services.</p></div>
+</div>
+</section>
 </main>
-
-<footer>
-  <strong>SURYA DIGITAL SEVA KENDRA</strong>
-  <p>Centre Operator: Trinath Sutradhar</p>
-  <p>CSC ID: 232563770016</p>
-  <p>Phone: 7908420583</p>
-  <p>© 2026 Surya Digital Seva Kendra. All rights reserved.</p>
-  <p><small>Services are subject to eligibility and the rules of the respective service providers. CSC-style text mark is for website design and is not an official logo.</small></p>
-</footer>
 </body>
 </html>
