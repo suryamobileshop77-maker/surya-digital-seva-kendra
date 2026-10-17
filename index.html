@@ -1,98 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Surya Digital Seva Kendra — digital services and government scheme information.">
-  <title>Surya Digital Seva Kendra</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Surya Digital Seva Kendra</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f6fc;color:#17324f}
+header{background:linear-gradient(135deg,#06264b,#087ac0);color:white;text-align:center;padding:35px 15px}
+.logo{width:82px;height:82px;border:4px solid #f5a623;border-radius:50%;background:white;color:#0755a0;margin:0 auto 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:bold}
+.logo b{font-size:25px}.logo small{font-size:9px}
+h1{font-size:clamp(25px,5vw,40px);margin:8px 0}
+header p{color:#e2efff;line-height:1.6}
+.tag{display:inline-block;border:1px solid #ffffff80;border-radius:20px;padding:8px 14px;margin:5px;font-size:12px}
+main{max-width:1050px;margin:auto;padding:22px 15px}
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.info,.service{background:white;border:1px solid #dce6f0;border-radius:13px;padding:17px;text-align:center}
+.info small{display:block;color:#64778b}
+.info strong{display:block;margin-top:8px;color:#0755a0;overflow-wrap:anywhere}
+h2{text-align:center;color:#0b3d70;margin:32px 0 7px}
+.intro{text-align:center;color:#687b8f;margin:0 0 22px}
+.services{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.service{padding:20px 9px;box-shadow:0 4px 12px #17324f0c}
+.icon{font-size:30px;margin-bottom:10px}
+.service h3{font-size:14px;margin:0;color:#123d69}
+.service p{font-size:12px;color:#687b8f;line-height:1.5}
+.banner{margin-top:25px;padding:22px;text-align:center;border-radius:13px;background:#e2f5e9;border:1px solid #c4e7d0}
+.banner h3{margin:0;color:#176a3b}
+.banner p{line-height:1.6}
+.button{display:inline-block;background:#ff9d22;color:#172d46;padding:12px 20px;border-radius:7px;text-decoration:none;font-weight:bold;margin-top:10px}
+footer{background:#06264b;color:white;text-align:center;padding:25px 12px;margin-top:25px}
+footer p{margin:8px 0;color:#e0ebf8;font-size:13px}
+@media(max-width:700px){.services{grid-template-columns:repeat(2,minmax(0,1fr))}.contact{grid-template-columns:1fr}}
+@media(max-width:360px){.services{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Surya Digital Seva Kendra home">
-      <span class="brand-mark">S</span>
-      <span><strong>Surya Digital Seva Kendra</strong><small>Digital Services • Citizen Support</small></span>
-    </a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav"> less then img src "image.jpg" alt"csc office" width 300
-      <a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Our Services</a>
-      <a href="#schemes">Government Schemes</a><a href="#updates">Latest Updates</a><a href="#contact">Contact Us</a>
-    </nav>
-  </header>
+<header>
+  <div class="logo"><b>CSC</b><small>DIGITAL SEVA</small></div>
+  <h1>SURYA DIGITAL SEVA KENDRA</h1>
+  <p>Your Trusted Digital Service Centre<br>Easy Access to Essential Online Services</p>
+  <span class="tag">CSC Digital Services</span>
+  <span class="tag">Customer Support</span>
+  <span class="tag">Online Applications</span>
+</header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">YOUR LOCAL DIGITAL SERVICE CENTRE</p>
-        <h1>Digital Services, <span>Simplified.</span></h1>
-        <p class="hero-text">A convenient place for digital service assistance, application guidance and useful government portal links.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#services">Explore Services</a>
-          <a class="button secondary" href="#contact">Contact the Centre</a>
-        </div>
-        <p class="small-note">Service availability and eligibility depend on the relevant official portal and applicable rules.</p>
-      </div>
-      <div class="hero-panel">
-        <div class="panel-icon">✦</div>
-        <h2>How can we help?</h2>
-        <p>Find service information, required-document guidance and official website links in one place.</p>
-        <ul><li>Citizen service assistance</li><li>Government scheme information</li><li>Digital application support</li></ul>
-      </div>
-    </section>
+<main>
+  <section class="contact">
+    <div class="info"><small>📞 CONTACT NUMBER</small><strong>7908420583</strong></div>
+    <div class="info"><small>🪪 CSC ID</small><strong>232563770016</strong></div>
+    <div class="info"><small>👨‍💼 CENTRE OPERATOR</small><strong>Trinath Sutradhar</strong></div>
+  </section>
 
-    <section class="section intro" id="about">
-      <p class="eyebrow">ABOUT US</p>
-      <h2>Welcome to Surya Digital Seva Kendra</h2>
-      <p>We aim to help citizens access digital services and understand application processes. Please contact the centre to confirm current service availability, fees, documents and eligibility before applying.</p>
-    </section>
+  <h2>Our Digital Services</h2>
+  <p class="intro">A wide range of digital and citizen services at one place.</p>
 
-    <section class="section soft" id="services">
-      <p class="eyebrow">WHAT WE OFFER</p><h2>Our Services</h2>
-      <p class="section-lead">Explore the service categories below. Some services may require an official operator login or in-person verification.</p>
-      <div class="cards">
-        <article class="card"><span class="card-icon">▣</span><h3>PAN Card Services</h3><p>Application guidance, correction information and status-check links.</p><a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html" target="_blank" rel="noopener">Official application portal ↗</a></article>
-        <article class="card"><span class="card-icon">✈</span><h3>Passport Assistance</h3><p>Guidance for passport applications and appointment information.</p><a href="https://www.passportindia.gov.in/" target="_blank" rel="noopener">Passport Seva ↗</a></article>
-        <article class="card"><span class="card-icon">＋</span><h3>Ayushman Bharat</h3><p>Information about eligibility, beneficiary services and official resources.</p><a href="https://beneficiary.nha.gov.in/" target="_blank" rel="noopener">Beneficiary portal ↗</a></article>
-        <article class="card"><span class="card-icon">♧</span><h3>e-Shram</h3><p>Registration information and worker-support resources.</p><a href="https://eshram.gov.in/" target="_blank" rel="noopener">Official e-Shram ↗</a></article>
-        <article class="card"><span class="card-icon">🌾</span><h3>PM-KISAN</h3><p>Scheme information and beneficiary services for eligible farmers.</p><a href="https://pmkisan.gov.in/" target="_blank" rel="noopener">Official PM-KISAN ↗</a></article>
-        <article class="card"><span class="card-icon">☂</span><h3>Crop Insurance</h3><p>Information about crop insurance and seasonal application windows.</p><a href="https://pmfby.gov.in/" target="_blank" rel="noopener">PMFBY portal ↗</a></article>
-        <article class="card"><span class="card-icon">₹</span><h3>Digital Payments</h3><p>Information about available digital payment and assisted banking services.</p><span class="text-link">Contact the centre for availability</span></article>
-        <article class="card"><span class="card-icon">▤</span><h3>Bill Payments & Recharge</h3><p>Ask the centre about supported bill-payment and recharge services.</p><span class="text-link">Contact the centre for availability</span></article>
-        <article class="card"><span class="card-icon">⌂</span><h3>Insurance & Pension</h3><p>Guidance about available insurance and pension-related services.</p><span class="text-link">Eligibility and terms apply</span></article>
-      </div>
-    </section>
+  <section class="services">
+    <div class="service"><div class="icon">🪪</div><h3>PAN Card Services</h3><p>Application and related assistance</p></div>
+    <div class="service"><div class="icon">🛂</div><h3>Passport Services</h3><p>Online application assistance</p></div>
+    <div class="service"><div class="icon">🩺</div><h3>Ayushman Bharat</h3><p>Eligible card and e-KYC assistance</p></div>
+    <div class="service"><div class="icon">🌾</div><h3>PM-KISAN</h3><p>Farmer scheme assistance</p></div>
+    <div class="service"><div class="icon">🌱</div><h3>PMFBY Insurance</h3><p>Crop insurance services</p></div>
+    <div class="service"><div class="icon">👷</div><h3>e-Shram</h3><p>Worker registration assistance</p></div>
+    <div class="service"><div class="icon">💳</div><h3>DigiPay & AEPS</h3><p>Supported digital banking services</p></div>
+    <div class="service"><div class="icon">💡</div><h3>BBPS Bill Payment</h3><p>Supported utility bill payments</p></div>
+    <div class="service"><div class="icon">🚆</div><h3>Rail Ticket Booking</h3><p>Ticket booking assistance</p></div>
+    <div class="service"><div class="icon">✈️</div><h3>Flight Ticket Booking</h3><p>Travel booking assistance</p></div>
+    <div class="service"><div class="icon">🛡️</div><h3>Insurance Services</h3><p>Available insurance assistance</p></div>
+    <div class="service"><div class="icon">👴</div><h3>Atal Pension Yojana</h3><p>Eligible pension scheme assistance</p></div>
+    <div class="service"><div class="icon">📄</div><h3>Online Applications</h3><p>Forms and document assistance</p></div>
+    <div class="service"><div class="icon">🏦</div><h3>Banking Services</h3><p>Available banking and transaction services</p></div>
+    <div class="service"><div class="icon">🖨️</div><h3>Print & Document Help</h3><p>Printing and digital document assistance</p></div>
+    <div class="service"><div class="icon">🤝</div><h3>Government Schemes</h3><p>Guidance for eligible citizens</p></div>
+  </section>
 
-    <section class="section" id="schemes">
-      <p class="eyebrow">CITIZEN INFORMATION</p><h2>Government Schemes</h2>
-      <div class="scheme-box">
-        <div><h3>Looking for a government scheme?</h3><p>Check eligibility, required documents, deadlines and application status on the relevant official portal. Scheme rules can change, so always verify the latest information.</p></div>
-        <a class="button primary" href="https://www.myscheme.gov.in/" target="_blank" rel="noopener">Explore MyScheme ↗</a>
-      </div>
-    </section>
+  <section class="banner">
+    <h3>Need Help with an Online Service?</h3>
+    <p>Contact Surya Digital Seva Kendra for information about available services and required documents.</p>
+    <a class="button" href="tel:7908420583">Call Our Centre</a>
+  </section>
+</main>
 
-    <section class="section soft" id="updates">
-      <p class="eyebrow">ANNOUNCEMENTS</p><h2>Latest Updates & Downloads</h2>
-      <div class="update-grid">
-        <div class="update-card"><h3>Latest Notices</h3><p>Important announcements and service availability updates will be published here.</p><span class="tag">Updates coming soon</span></div>
-        <div class="update-card"><h3>Forms & Documents</h3><p>Approved forms and public information documents can be listed here when available.</p><span class="tag">Downloads coming soon</span></div>
-      </div>
-      <p class="small-note">Only publish documents you are permitted to share. Check each official portal for the latest forms and instructions.</p>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <p class="eyebrow">GET IN TOUCH</p><h2>Contact Us</h2>
-      <div class="contact-grid">
-        <div><h3>Surya Digital Seva Kendra</h3><p>For service availability, documents and assistance, contact the centre directly.</p>
-          <p><strong>Phone:</strong> <a href="tel:+917908420583">+91 79084 20583</a></p>
-          <p><strong>CSC ID:</strong> 232563770016</p>
-          <p><strong>Centre Representative:</strong> Trinath Sutradhar</p>
-        </div>
-        <div class="contact-note"><h3>Before you visit</h3><p>Please confirm opening hours and service availability by phone. Never share your OTP, banking PIN or password with anyone.</p><a class="button primary" href="https://wa.me/917908420583?text=Hello%20Surya%20Digital%20Seva%20Kendra" target="_blank" rel="noopener">Message on WhatsApp ↗</a></div>
-      </div>
-    </section>
-  </main>
-
-  <footer><div class="footer-brand">Surya Digital Seva Kendra</div><p>Digital service information and citizen assistance.</p><p class="disclaimer">This is an independent service-centre website, not an official government website. Government logos are not used. Verify scheme details and applications on official portals.</p><p>© <span id="year"></span> Surya Digital Seva Kendra. All rights reserved.</p></footer>
-  <script src="script.js"></script>
+<footer>
+  <strong>SURYA DIGITAL SEVA KENDRA</strong>
+  <p>Centre Operator: Trinath Sutradhar</p>
+  <p>CSC ID: 232563770016</p>
+  <p>Phone: 7908420583</p>
+  <p>© 2026 Surya Digital Seva Kendra. All rights reserved.</p>
+  <p><small>Services are subject to eligibility and the rules of the respective service providers. CSC-style text mark is for website design and is not an official logo.</small></p>
+</footer>
 </body>
 </html>
